@@ -1,0 +1,11 @@
+<h1>Calculator</h1>
+<!--- this is an html comment -->
+<form action="/calc_form" method="get">
+  <input type="text" name="first">
+  <input type="text" name="operation">
+  <input type="text" name="second">
+  <button>Calculate</button>
+</form>
+
+<p>The <%= @operation %> of <%= @first %> and
+<%= @second %> is <%= @result %></p>
